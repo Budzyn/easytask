@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Site.css" type="text/css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <div id="header">
+        <div class="title">ElifTech Test Assignment</div>
+    </div>
+    <div id="categories">
+        <ul class="navbar-collapse collapse">
+            <li class="active">@Html.ActionLink("MainCompany", "SubsidiaryCompany")</li>
+            <li>@Html.ActionLink("SubsidiaryCompany", "MainCompany")</li>
+        </ul>
+</div>
+    <div id="content">
+        @RenderBody()
+    </div>
+</body>
+</html>
