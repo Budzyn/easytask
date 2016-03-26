@@ -118,10 +118,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\MainCompaniesController.cs" />
     <Compile Include="Controllers\SubsidiaryCompaniesController.cs" />
+    <Compile Include="Controllers\TreeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\CompanyContext.cs" />
+    <Compile Include="Models\CompanyModels.cs" />
     <Compile Include="Models\MainCompany.cs" />
     <Compile Include="Models\SubsidiaryCompany.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -135,6 +137,7 @@
     <Content Include="Views\MainCompanies\Delete.cshtml" />
     <Content Include="Views\MainCompanies\Edit.cshtml" />
     <Content Include="Views\MainCompanies\Index.cshtml" />
+    <Content Include="Views\Tree\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

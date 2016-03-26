@@ -25,14 +25,14 @@ DIV#header DIV.title
 DIV#content 
 { 
   border-left: 2px solid gray; 
-  margin-left: 9em; 
+  margin-left: 19em; 
   padding: 1em; 
 } 
  
 DIV#categories 
 { 
   float: left; 
-  width: 8em; 
+  width: 12em; 
   padding: .3em; 
 } 
  
